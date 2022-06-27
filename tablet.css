@@ -1,0 +1,214 @@
+@media  screen and (max-width: 991px){
+    .menu__list__item:nth-child(1){
+        display: none;
+    }
+
+    .menu__list__item:nth-child(2){
+        display: none;
+    }
+
+    .menu__list__item:nth-child(3){
+        display: none;
+    }
+
+    .menu__list__item:nth-child(4){
+        display: none;
+    }
+
+    .menu__list__item:nth-child(5){
+        display: none;
+    }
+
+    section.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+        margin: 0px 3px;
+    }
+
+    header.menu__header{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 12px;
+    }
+
+    section.menu nav ul.menu__list{
+        width: 236px;
+    }
+
+    section.title{
+        margin: 0 85px ;
+    }
+
+    div.title__div{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    section .title__profile {
+        width: 146px;
+        height: 146px;
+    }
+
+    div.title__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.title__network{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*about*/
+
+    section.about {
+        padding: 62px 14px;
+    }
+
+    section.about div.about__container p{
+        font-size: 17px;
+    }
+
+    /*skills*/
+
+    h3.skills__title {
+        text-align: center;
+    }
+
+    div.skills__line {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*hobbies*/
+
+    h3.hobbies__title{
+        text-align: center;
+    }
+
+    div.hobbies__line{
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.hobbies__box:nth-child(2){
+        width: 9rem;
+    }
+
+    section.experience div.experience__box1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*academic*/
+
+    h2.academic__title{
+        text-align: center;
+    }
+
+    div.academic__courses{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*experience*/
+
+    h2.experience__section__title{
+        text-align: center;
+    }
+
+    section.experience div.experience__box {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    section.experience div.experience__box1 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    button.experiencia__botao--repo {
+        width: 105px;
+        height: 51px;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: darkred;
+        color: white;
+
+    }
+
+    button.experiencia__botao--repo:hover {
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+    button.experience__botao--demo {
+        width: 105px;
+        height: 51px;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: darkred;
+        color: white;
+    }
+
+    button.experience__botao--demo:hover {
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+
+    /*form*/
+    
+    section .formcontato__img {
+        display: none;
+    }
+
+    div.formcontato__text {
+        padding: 1rem;
+    }
+
+    form.formcontato__form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input.formcontato__input {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 56px;
+        width: 704px;
+    }
+
+    section .formcontato__textarea {
+        width: 704px;
+        height: 133px;
+    }
+
+    button.formcontato__botao {
+        margin-top: 1rem;
+        width: 133px;
+        height: 40px;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: darkred;
+        color: white;
+    }
+
+    button.formcontato__botao:hover {
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+    /*footer*/
+
+    section.footer{
+        text-align: center;
+    }
+}
