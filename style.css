@@ -1,4 +1,7 @@
 @media only screen and (min-width: 992px) {
+    @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
     body {
         background-color: var(--cor-gris-claro)
     }
@@ -341,11 +344,13 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         height: 56px;
+        width: 656px;
 
     }
 
     section .formcontato__textarea {
         height: 133px;
+        width: 656px;
     }
 
     section .formcontato__botao {
@@ -362,6 +367,10 @@
     section .formcontato__botao:hover {
         opacity: 0.6;
         text-decoration: none;
+    }
+
+    .formcontato__botao:active{
+        transform: scale(0.8);
     }
 
     /*footeer*/

@@ -33,7 +33,8 @@
                     <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                     <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                     <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="mailto:jose.enrique.barz@gmail.com">jose.enrique.baez@gmail.com</a></li>
+                    <li class="menu__list__item"><a
+                            href="mailto:jose.enrique.barz@gmail.com">jose.enrique.baez@gmail.com</a></li>
                 </ul>
             </nav>
         </section>
@@ -49,9 +50,13 @@
                         participando del proyecto Oracle ONE en Alura Latam.</h3>
                     <ul class="title__network">
                         <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="https://github.com/Jbr19">Github <img src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><a href="https://www.linkedin.com/in/jose-e-baez-reyes-826082235/">Linkedin <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="assets/curriculo.pdf">Currículo <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="https://github.com/Jbr19">Github <img
+                                    src="assets\arrow.png"> </a></li>
+                        <li class="title__network__item"><a
+                                href="https://www.linkedin.com/in/jose-e-baez-reyes-826082235/">Linkedin <img
+                                    src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="assets/curriculo.pdf">Currículo <img
+                                    src="assets\arrow.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +66,7 @@
         <section class="about" id="sobre-mi">
             <div class="about__container">
                 <h3 class="about__title">Sobre mi</h3>
-                <p class="about__paragraph">Soy  de Puerto Rico y tengo 34 años. 
+                <p class="about__paragraph">Soy de Puerto Rico y tengo 34 años.
                     Me dedico a reparar computadoras.
                     Una de mis metas es ser programador y trabajar en ello. </p>
                 <p class="about__paragraph">Soy una persona que le apasiona la tecnología. Mis
@@ -189,10 +194,10 @@
                     <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/Jbr19/Encriptador.github.io"><button
+                        <span class="experience__repo"><a href="https://github.com/Jbr19/Encriptador.github.io"><button
                                     class="experiencia__botao--repo">Repositorio</button></a></span>
-                        <span class="experience__demo"><a href="https://jbr19.github.io/Encriptador.github.io/"><button class="experience__botao--demo">Ver
+                        <span class="experience__demo"><a href="https://jbr19.github.io/Encriptador.github.io/"><button
+                                    class="experience__botao--demo">Ver
                                     demo</button></a></span>
                     </div>
                 </div>
@@ -209,7 +214,9 @@
                         <span class="experience__repo"><a
                                 href="https://github.com/Jbr19/Juego_Ahorcado.github.io"><button
                                     class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href="https://jbr19.github.io/Juego_Ahorcado.github.io/"><button class="experience__botao--demo">Ver
+                        <span class="experience__demo"><a
+                                href="https://jbr19.github.io/Juego_Ahorcado.github.io/"><button
+                                    class="experience__botao--demo">Ver
                                     demo</button></a></span>
                     </div>
                 </div>
@@ -226,13 +233,20 @@
                         <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                             usted lo antes posible. </h3>
-                        <form  id="formulario" class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" id="name" name="nombre" placeholder="Nombre">
-                            <input class="formcontato__input" type="email" id="correo" name="email" placeholder="usuario@dominio.com">
-                            <input class="formcontato__input" type="text" id="asunto" name="asunto" placeholder="Assunto">
+                        <form id="form" class="formcontato__form" name="form">
+
+                            <input class="formcontato__input" type="text" id="nombre" name="nombre"
+                                placeholder="Nombre" required>
+
+                            <input class="formcontato__input" type="email" id="email" name="email"
+                                placeholder="usuario@dominio.com" required>
+
+                            <input class="formcontato__input" type="text" id="asunto" name="asunto"
+                                placeholder="Asunto" required>
+
                             <textarea class="formcontato__textarea" rows="5" cols="40" id="mensage" name="mensaje"
                                 placeholder="Mensaje"></textarea>
-                            <button id="enviar" type="submit" class="formcontato__botao">Enviar mensaje</button>
+                            <button id="enviar" type="submit" class="formcontato__botao" required>Enviar mensaje</button>
                         </form>
                     </div>
                 </div>
@@ -247,6 +261,7 @@
     </div>
     <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
